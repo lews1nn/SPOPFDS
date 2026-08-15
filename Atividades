@@ -14,7 +14,7 @@ clear	  |  clear	    | Limpa a tela do terminal.
 pwd	      |  pwd	    | Mostra o caminho do diretório atual (Print Working Directory).
 whoami	  |  whoami	    | Exibe o nome do usuário atualmente logado.
 hostname  |	hostname -i |	Mostra o nome da máquina na rede. A opção -i mostra o IP.
-uname	  |  uname -a	 | Exibe informações sobre o sistema operacional e o kernel.
+uname	  |  uname -a| Exibe informações sobre o sistema operacional e o kernel.
 history	  | history	    | Lista o histórico de comandos digitados no terminal.
 
 
