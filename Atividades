@@ -10,8 +10,8 @@ Comando 	|Exemplo	    |  Descrição
 
 ls        |  ls -la     | Lista o conteúdo de um diretório.
 man	      |  man ls	    | Exibe o manual (manual page) de um comando.
-clear	  |  clear	       | Limpa a tela do terminal.
-pwd	      |  pwd	      | Mostra o caminho do diretório atual (Print Working Directory).
+clear	  |  clear	    | Limpa a tela do terminal.
+pwd	      |  pwd	    | Mostra o caminho do diretório atual (Print Working Directory).
 whoami	  |  whoami	    | Exibe o nome do usuário atualmente logado.
 hostname  |	hostname -i |	Mostra o nome da máquina na rede. A opção -i mostra o IP.
 uname	  |  uname -a	  | Exibe informações sobre o sistema operacional e o kernel.
