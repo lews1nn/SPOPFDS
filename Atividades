@@ -14,21 +14,21 @@ clear	 |  clear	       | Limpa a tela do terminal.
 pwd	      |  pwd	      | Mostra o caminho do diretório atual (Print Working Directory).
 whoami	  |  whoami	    | Exibe o nome do usuário atualmente logado.
 hostname  |	hostname -i |	Mostra o nome da máquina na rede. A opção -i mostra o IP.
-uname	    |  uname -a	  | Exibe informações sobre o sistema operacional e o kernel.
+uname	   |  uname -a	  | Exibe informações sobre o sistema operacional e o kernel.
 history	  | history	    | Lista o histórico de comandos digitados no terminal.
 
 
 2. Gerenciamento de Diretórios e Arquivos
 Comando	  |    Exemplo	             |           Descrição
-mkdir	    | mkdir nova_pasta	       | Cria um novo diretório (Make Directory).
+mkdir	   | mkdir nova_pasta	       | Cria um novo diretório (Make Directory).
 cd	      | cd /home/usuario	       | Muda o diretório atual (Change Directory).
-touch	    | touch arquivo.txt	       | Cria um arquivo vazio ou atualiza a data/hora de um existente.
+touch	   | touch arquivo.txt	       | Cria um arquivo vazio ou atualiza a data/hora de um existente.
 cp	      | cp origem.txt destino/	 | Copia arquivos ou diretórios.
 mv	      | mv antigo.txt novo.txt	 | Move ou renomeia arquivos/diretórios.
 rm	      | rm arquivo.txt	         | Remove (deleta) arquivos.
-rmdir	    | rmdir pasta_vazia	       | Remove diretórios vazios.
+rmdir	   | rmdir pasta_vazia	       | Remove diretórios vazios.
 rm -rf	  | rm -rf pasta_cheia	     | Comando perigoso! Remove diretórios e seu conteúdo (recursivo e forçado) sem confirmação.
-find	    | find . -name "*.txt"	   | Procura por arquivos e diretórios no sistema de arquivos.
+find	   | find . -name "*.txt"	   | Procura por arquivos e diretórios no sistema de arquivos.
 
 3. Visualização e Edição de Arquivos
 Comando	  |    Exemplo	             |           Descrição
