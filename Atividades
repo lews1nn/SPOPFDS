@@ -18,24 +18,25 @@ uname	    |  uname -a	  | Exibe informações sobre o sistema operacional e o ke
 history	  | history	    | Lista o histórico de comandos digitados no terminal.
 
 
+2. Gerenciamento de Diretórios e Arquivos
 Comando	  |    Exemplo	             |           Descrição
 mkdir	    | mkdir nova_pasta	       | Cria um novo diretório (Make Directory).
 cd	      | cd /home/usuario	       | Muda o diretório atual (Change Directory).
-touch	    |touch arquivo.txt	       | Cria um arquivo vazio ou atualiza a data/hora de um existente.
+touch	    | touch arquivo.txt	       | Cria um arquivo vazio ou atualiza a data/hora de um existente.
 cp	      | cp origem.txt destino/	 | Copia arquivos ou diretórios.
 mv	      | mv antigo.txt novo.txt	 | Move ou renomeia arquivos/diretórios.
 rm	      | rm arquivo.txt	         | Remove (deleta) arquivos.
 rmdir	    | rmdir pasta_vazia	       | Remove diretórios vazios.
-rm -rf	  |rm -rf pasta_cheia	       | Comando perigoso! Remove diretórios e seu conteúdo (recursivo e forçado) sem confirmação.
+rm -rf	  | rm -rf pasta_cheia	     | Comando perigoso! Remove diretórios e seu conteúdo (recursivo e forçado) sem confirmação.
 find	    | find . -name "*.txt"	   | Procura por arquivos e diretórios no sistema de arquivos.
 
 3. Visualização e Edição de Arquivos
-Comando	Exemplo	Descrição
-nano	nano relatorio.txt	Abre o editor de texto simples nano para criar ou editar um arquivo.
-cat	cat arquivo.txt	Exibe o conteúdo completo de um arquivo no terminal.
-head	head -n 5 arquivo.txt	Exibe as primeiras linhas (padrão: 10) de um arquivo.
-tail	tail -f log.txt	Exibe as últimas linhas de um arquivo. A opção -f segue o arquivo em tempo real.
-less	less grande.txt	Visualiza o conteúdo de um arquivo pagina por pagina, permitindo rolagem.
+Comando	  |    Exemplo	             |           Descrição
+nano	    | nano relatorio.txt	     | Abre o editor de texto simples nano para criar ou editar um arquivo.
+cat	      | cat arquivo.txt	         | Exibe o conteúdo completo de um arquivo no terminal.
+head	    | head -n 5 arquivo.txt	   | Exibe as primeiras linhas (padrão: 10) de um arquivo.
+tail	    | tail -f log.txt	         | Exibe as últimas linhas de um arquivo. A opção -f segue o arquivo em tempo real.
+less	    | less grande.txt	         | Visualiza o conteúdo de um arquivo pagina por pagina, permitindo rolagem.
 
 4. Redirecionamento e Filtros
 Comando	Exemplo	Descrição
